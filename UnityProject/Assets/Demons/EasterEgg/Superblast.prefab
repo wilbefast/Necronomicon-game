@@ -58,6 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 200
+  impactSpecialEffect: {fileID: 100000, guid: 52d5985868c9f894b99d1b443b4f16ae, type: 2}
   destroyOnImpact: 1
 --- !u!135 &13500000
 SphereCollider:

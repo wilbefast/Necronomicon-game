@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammunition: 2
-  muzzleVelocity: 5
+  muzzleVelocity: 15
   projectilePrefab: {fileID: 5400000, guid: 730f1b3b985945a45a23cb6b71ffeea8, type: 2}
   muzzle: {fileID: 400054}
 --- !u!114 &11400016

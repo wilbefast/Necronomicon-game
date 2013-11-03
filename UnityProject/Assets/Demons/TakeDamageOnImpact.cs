@@ -13,7 +13,13 @@ public class TakeDamageOnImpact : MonoBehaviour
 			GetComponent<Life>().hitpoints -= damage.amount;
 			if(damage.destroyOnImpact)
 				GameObject.Destroy(damage.gameObject);
+			
 			damage.consumed = true;
+			
+			if(damage.impactSpecialEffect != null)
+				GameObject.Instantiate(damage.impactSpecialEffect, 
+					new Vector3(transform.position.x, 0.1f, -0.5f),
+					Quaternion.identity);
 		}
 	}
 }
