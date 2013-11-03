@@ -11,15 +11,18 @@ public class Summon : MonoBehaviour
 	}
 	public Option[] options;
 	
+	private GameObject currentMinion = null;
 	
 	void Update () 
 	{
+		if(currentMinion == null)
 		foreach(Option o in options)
 		{
 			if(Input.GetKeyDown(o.keyboardKey))
 			{
-				GameObject minion = (GameObject)GameObject.Instantiate(
+				currentMinion = (GameObject)GameObject.Instantiate(
 					o.prefab, transform.position, transform.rotation);
+				//minion.transform.parent = transform;
 			}
 		}
 	}
