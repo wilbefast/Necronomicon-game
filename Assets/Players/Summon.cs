@@ -22,7 +22,7 @@ public class Summon : MonoBehaviour
 			{
 				currentMinion = (GameObject)GameObject.Instantiate(
 					o.prefab, transform.position, transform.rotation);
-				//minion.transform.parent = transform;
+				currentMinion.transform.parent = transform;
 			}
 		}
 	}
