@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: 1215cef419cfbde4c9a43c4f1de66f72
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: aile_droite003
+    100002: aile_droite01
+    100004: aile_droite01 1
+    100006: aile_droite02
+    100008: aile_droite02 1
+    100010: aile_gauche01
+    100012: aile_gauche01 1
+    100014: ailegauche02
+    100016: avbras_droite
+    100018: avbras_gauche
+    100020: avcuisse_gauche
+    100022: avcuisse_gauche 1
+    100024: bassin
+    100026: bassin_end
+    100028: Bone025
+    100030: Bone029
+    100032: Bone034
+    100034: bras_droite
+    100036: bras_gauche
+    100038: cou01
+    100040: cou01 1
+    100042: cou02
+    100044: cou02 1
+    100046: cuisse_droite
+    100048: cuisse_gauche
+    100050: //RootNode
+    100052: Dummy001
+    100054: Dummy002
+    100056: Dummy003
+    100058: Dummy004
+    100060: Dummy005
+    100062: Dummy006
+    100064: Dummy007
+    100066: Dummy008
+    100068: Dummy009
+    100070: Dummy010
+    100072: Dummy011
+    100074: Dummy012
+    100076: Dummy013
+    100078: Dummy015
+    100080: Dummy016
+    100082: Dummy017
+    100084: Dummy018
+    100086: IK Chain001
+    100088: IK Chain002
+    100090: IK Chain003
+    100092: IK Chain004
+    100094: IK Chain005
+    100096: IK Chain006
+    100098: IK Chain007
+    100100: IK Chain008
+    100102: IK Chain009
+    100104: IK Chain010
+    100106: IK Chain011
+    100108: IK Chain012
+    100110: m__choire
+    100112: machoire
+    100114: machoire_end
+    100116: main
+    100118: main01
+    100120: main_droite
+    100122: main_droite_end
+    100124: main_gauche
+    100126: main_gauche_end
+    100128: pied
+    100130: pied001
+    100132: pied_droite
+    100134: pied_droite_end
+    100136: pied_gauche
+    100138: pied_gauche_end
+    100140: Plane002
+    100142: Plane003
+    100144: Plane004
+    100146: Plane005
+    100148: Plane006
+    100150: Plane007
+    100152: Plane008
+    100154: spline01
+    100156: spline01 1
+    100158: spline02
+    100160: spline02 1
+    100162: spline03
+    100164: spline03 1
+    100166: t__te
+    100168: t__te 1
+    100170: t__te_end
+    100172: tail
+    100174: tail 1
+    100176: tail_end
+    100178: tibia
+    100180: tibia001
+    100182: tibia_droite
+    100184: tibia_gauche
+    400000: aile_droite003
+    400002: aile_droite01
+    400004: aile_droite01 1
+    400006: aile_droite02
+    400008: aile_droite02 1
+    400010: aile_gauche01
+    400012: aile_gauche01 1
+    400014: ailegauche02
+    400016: avbras_droite
+    400018: avbras_gauche
+    400020: avcuisse_gauche
+    400022: avcuisse_gauche 1
+    400024: bassin
+    400026: bassin_end
+    400028: Bone025
+    400030: Bone029
+    400032: Bone034
+    400034: bras_droite
+    400036: bras_gauche
+    400038: cou01
+    400040: cou01 1
+    400042: cou02
+    400044: cou02 1
+    400046: cuisse_droite
+    400048: cuisse_gauche
+    400050: //RootNode
+    400052: Dummy001
+    400054: Dummy002
+    400056: Dummy003
+    400058: Dummy004
+    400060: Dummy005
+    400062: Dummy006
+    400064: Dummy007
+    400066: Dummy008
+    400068: Dummy009
+    400070: Dummy010
+    400072: Dummy011
+    400074: Dummy012
+    400076: Dummy013
+    400078: Dummy015
+    400080: Dummy016
+    400082: Dummy017
+    400084: Dummy018
+    400086: IK Chain001
+    400088: IK Chain002
+    400090: IK Chain003
+    400092: IK Chain004
+    400094: IK Chain005
+    400096: IK Chain006
+    400098: IK Chain007
+    400100: IK Chain008
+    400102: IK Chain009
+    400104: IK Chain010
+    400106: IK Chain011
+    400108: IK Chain012
+    400110: m__choire
+    400112: machoire
+    400114: machoire_end
+    400116: main
+    400118: main01
+    400120: main_droite
+    400122: main_droite_end
+    400124: main_gauche
+    400126: main_gauche_end
+    400128: pied
+    400130: pied001
+    400132: pied_droite
+    400134: pied_droite_end
+    400136: pied_gauche
+    400138: pied_gauche_end
+    400140: Plane002
+    400142: Plane003
+    400144: Plane004
+    400146: Plane005
+    400148: Plane006
+    400150: Plane007
+    400152: Plane008
+    400154: spline01
+    400156: spline01 1
+    400158: spline02
+    400160: spline02 1
+    400162: spline03
+    400164: spline03 1
+    400166: t__te
+    400168: t__te 1
+    400170: t__te_end
+    400172: tail
+    400174: tail 1
+    400176: tail_end
+    400178: tibia
+    400180: tibia001
+    400182: tibia_droite
+    400184: tibia_gauche
+    4300000: aile_droite02
+    4300002: aile_droite01
+    4300004: aile_gauche01
+    4300006: aile_droite003
+    4300008: tail
+    4300010: t__te
+    4300012: Plane002
+    4300014: Plane003
+    4300016: Plane004
+    4300018: tibia
+    4300020: tibia001
+    4300022: pied
+    4300024: pied001
+    4300026: machoire
+    4300028: Plane005
+    4300030: Plane006
+    4300032: Plane007
+    4300034: Plane008
+    4300036: spline03
+    4300038: spline02
+    4300040: spline01
+    4300042: main
+    4300044: main01
+    4300046: cou01
+    4300048: cou02
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: aile_droite003
+    13700002: aile_droite01
+    13700004: aile_droite02
+    13700006: aile_gauche01
+    13700008: cou01
+    13700010: cou02
+    13700012: machoire
+    13700014: main
+    13700016: main01
+    13700018: pied
+    13700020: pied001
+    13700022: Plane002
+    13700024: Plane003
+    13700026: Plane004
+    13700028: Plane005
+    13700030: Plane006
+    13700032: Plane007
+    13700034: Plane008
+    13700036: spline01
+    13700038: spline02
+    13700040: spline03
+    13700042: t__te
+    13700044: tail
+    13700046: tibia
+    13700048: tibia001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

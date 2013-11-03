@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: fca2b71911c50dd42b29e39705a05cdd
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: av_bras_gauche
+    100002: avbras_droit
+    100004: avbras_droit 1
+    100006: avbras_gauche
+    100008: bras_droit
+    100010: bras_droit 1
+    100012: bras_gauche
+    100014: bras_gauche 1
+    100016: connectBone001
+    100018: cou
+    100020: cuisse_gauche
+    100022: cuisse_gauche001
+    100024: Dummy001
+    100026: Dummy008
+    100028: Dummy009
+    100030: Dummy010
+    100032: Dummy011
+    100034: Dummy012
+    100036: Dummy013
+    100038: Dummy014
+    100040: Dummy015
+    100042: Dummy016
+    100044: IK Chain001
+    100046: IK Chain002
+    100048: IK Chain003
+    100050: IK Chain004
+    100052: IK Chain005
+    100054: IK Chain006
+    100056: IK Chain007
+    100058: jambe_droite
+    100060: jambe_gauche
+    100062: main_droite
+    100064: main_droite 1
+    100066: main_droite_end
+    100068: main_gauche
+    100070: main_gauche 1
+    100072: main_gauche_end
+    100074: pied_droit_end
+    100076: pied_gauche
+    100078: pied_gauche 1
+    100080: pied_gauche001
+    100082: pied_gauche_end
+    100084: pieds_droit
+    100086: //RootNode
+    100088: spline
+    100090: spline01
+    100092: spline01 1
+    100094: spline02
+    100096: t__te
+    100098: tete
+    100100: tete_end
+    100102: tibia_droit
+    100104: tibia_gauche
+    100106: tibia_gauche 1
+    100108: tibia_gauche001
+    400000: av_bras_gauche
+    400002: avbras_droit
+    400004: avbras_droit 1
+    400006: avbras_gauche
+    400008: bras_droit
+    400010: bras_droit 1
+    400012: bras_gauche
+    400014: bras_gauche 1
+    400016: connectBone001
+    400018: cou
+    400020: cuisse_gauche
+    400022: cuisse_gauche001
+    400024: Dummy001
+    400026: Dummy008
+    400028: Dummy009
+    400030: Dummy010
+    400032: Dummy011
+    400034: Dummy012
+    400036: Dummy013
+    400038: Dummy014
+    400040: Dummy015
+    400042: Dummy016
+    400044: IK Chain001
+    400046: IK Chain002
+    400048: IK Chain003
+    400050: IK Chain004
+    400052: IK Chain005
+    400054: IK Chain006
+    400056: IK Chain007
+    400058: jambe_droite
+    400060: jambe_gauche
+    400062: main_droite
+    400064: main_droite 1
+    400066: main_droite_end
+    400068: main_gauche
+    400070: main_gauche 1
+    400072: main_gauche_end
+    400074: pied_droit_end
+    400076: pied_gauche
+    400078: pied_gauche 1
+    400080: pied_gauche001
+    400082: pied_gauche_end
+    400084: pieds_droit
+    400086: //RootNode
+    400088: spline
+    400090: spline01
+    400092: spline01 1
+    400094: spline02
+    400096: t__te
+    400098: tete
+    400100: tete_end
+    400102: tibia_droit
+    400104: tibia_gauche
+    400106: tibia_gauche 1
+    400108: tibia_gauche001
+    2300000: av_bras_gauche
+    2300002: avbras_droit 1
+    2300004: bras_droit 1
+    2300006: bras_gauche 1
+    2300008: cuisse_gauche
+    2300010: cuisse_gauche001
+    2300012: main_droite 1
+    2300014: main_gauche 1
+    2300016: pied_gauche 1
+    2300018: pied_gauche001
+    2300020: spline01 1
+    2300022: spline02
+    2300024: t__te
+    2300026: tibia_gauche 1
+    2300028: tibia_gauche001
+    3300000: av_bras_gauche
+    3300002: avbras_droit 1
+    3300004: bras_droit 1
+    3300006: bras_gauche 1
+    3300008: cuisse_gauche
+    3300010: cuisse_gauche001
+    3300012: main_droite 1
+    3300014: main_gauche 1
+    3300016: pied_gauche 1
+    3300018: pied_gauche001
+    3300020: spline01 1
+    3300022: spline02
+    3300024: t__te
+    3300026: tibia_gauche 1
+    3300028: tibia_gauche001
+    4300000: t__te
+    4300002: main_droite
+    4300004: avbras_droit
+    4300006: bras_droit
+    4300008: pied_gauche
+    4300010: tibia_gauche
+    4300012: cuisse_gauche
+    4300014: pied_gauche001
+    4300016: tibia_gauche001
+    4300018: cuisse_gauche001
+    4300020: spline01
+    4300022: spline02
+    4300024: main_gauche
+    4300026: av_bras_gauche
+    4300028: bras_gauche
+    7400000: SatanIdle
+    7400002: SatanAttack
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: -.75999999
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: SatanIdle
+      takeName: Take 001
+      firstFrame: 57.9000015
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: SatanAttack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

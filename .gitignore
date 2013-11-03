@@ -1,0 +1,16 @@
+/Assets/Tmp/*
+/build
+/Library
+/Temp
+/*.csproj
+/*.sln
+/*.suo
+/obj
+/*.unityproj
+*.pidb
+*.orig*
+*.swp
+*.BASE.*
+*.BACKUP.*
+*.LOCAL.*
+*.REMOTE.*
