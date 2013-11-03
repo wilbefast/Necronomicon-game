@@ -11,18 +11,29 @@ public class Summon : MonoBehaviour
 	}
 	public Option[] options;
 	
+	public Transform spawnPosition;
+	
 	private GameObject currentMinion = null;
+	
+	void Start()
+	{
+		if(spawnPosition == null)
+			spawnPosition = transform;
+	}
 	
 	void Update () 
 	{
-		if(currentMinion == null)
 		foreach(Option o in options)
 		{
 			if(Input.GetKeyDown(o.keyboardKey))
 			{
+				if(currentMinion != null)
+					GameObject.Destroy(currentMinion);
+					
 				currentMinion = (GameObject)GameObject.Instantiate(
-					o.prefab, transform.position, transform.rotation);
+					o.prefab, spawnPosition.position, spawnPosition.rotation);
 				currentMinion.transform.parent = transform;
+				break;
 			}
 		}
 	}
