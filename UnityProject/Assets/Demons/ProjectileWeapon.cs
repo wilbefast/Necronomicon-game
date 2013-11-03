@@ -21,5 +21,6 @@ public class ProjectileWeapon : Weapon
 		Rigidbody projectile = (Rigidbody)Rigidbody.Instantiate(
 			projectilePrefab, muzzle.position, muzzle.rotation);
 		projectile.velocity = transform.forward*muzzleVelocity;
+		projectile.transform.parent = transform;
 	}
 }

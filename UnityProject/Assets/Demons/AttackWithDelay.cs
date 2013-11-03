@@ -10,8 +10,13 @@ public class AttackWithDelay : MonoBehaviour
 	[Range(0.0f, 10.0f)]
 	public float attackDuration = 1.0f;
 	
+	public Weapon weaponToUse;
+	
 	void Start () 
 	{
+		if(weaponToUse == null)
+			weaponToUse = GetComponent<Weapon>();
+		
 		StartCoroutine(attackWithDelay());
 	}
 			
@@ -29,7 +34,7 @@ public class AttackWithDelay : MonoBehaviour
 		animator.SetBool("isAttacking", false);
 		
 		// launch the attack
-		GetComponent<Weapon>().launchAttack();
+		weaponToUse.launchAttack();
 		
 		yield break;
 	}

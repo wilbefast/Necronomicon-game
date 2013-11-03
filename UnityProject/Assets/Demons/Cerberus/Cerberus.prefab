@@ -1056,8 +1056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd96e2139b9e5647b4d42ac96fce9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  muzzleVelocity: 5
-  projectilePrefab: {fileID: 5400000, guid: bb7b406f9e98a084fac7300f59af53ee, type: 2}
+  muzzleVelocity: 15
+  projectilePrefab: {fileID: 5400000, guid: fd30791f65c05a14dba03be423686781, type: 2}
   muzzle: {fileID: 400112}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeAttack: 3
-  attackDuration: 1.5
+  attackDuration: .5
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
