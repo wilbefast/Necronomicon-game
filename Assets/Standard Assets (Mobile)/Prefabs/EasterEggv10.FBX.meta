@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 83d7c94b03e813e4ba0d84bf739166f3
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body
+    100002: body 1
+    100004: body_end
+    100006: bras droit 01_end
+    100008: bras droit 02_end
+    100010: bras droit 03_end
+    100012: bras gauche01_end
+    100014: bras gauche_03_end
+    100016: bras_droit02
+    100018: bras_droit_01
+    100020: bras_droit_01 1
+    100022: bras_droit_02
+    100024: bras_droit_03
+    100026: bras_gauche01
+    100028: bras_gauche02
+    100030: bras_gauche02 1
+    100032: bras_gauche02_end
+    100034: bras_gauche03
+    100036: bras_gauche_01
+    100038: bras_gauche_03
+    100040: brasdroit03
+    100042: Dummy002
+    100044: Dummy003
+    100046: Dummy004
+    100048: Dummy005
+    100050: Dummy006
+    100052: Dummy007
+    100054: Dummy008
+    100056: Dummy009
+    100058: //RootNode
+    100060: Head
+    100062: jambe_droite
+    100064: jambe_gauche
+    100066: jambe_gauche 1
+    100068: jambe_gauche 2
+    100070: jambe_gauche_end
+    100072: jambegauche_end
+    100074: tete
+    100076: tete_end
+    400000: body
+    400002: body 1
+    400004: body_end
+    400006: bras droit 01_end
+    400008: bras droit 02_end
+    400010: bras droit 03_end
+    400012: bras gauche01_end
+    400014: bras gauche_03_end
+    400016: bras_droit02
+    400018: bras_droit_01
+    400020: bras_droit_01 1
+    400022: bras_droit_02
+    400024: bras_droit_03
+    400026: bras_gauche01
+    400028: bras_gauche02
+    400030: bras_gauche02 1
+    400032: bras_gauche02_end
+    400034: bras_gauche03
+    400036: bras_gauche_01
+    400038: bras_gauche_03
+    400040: brasdroit03
+    400042: Dummy002
+    400044: Dummy003
+    400046: Dummy004
+    400048: Dummy005
+    400050: Dummy006
+    400052: Dummy007
+    400054: Dummy008
+    400056: Dummy009
+    400058: //RootNode
+    400060: Head
+    400062: jambe_droite
+    400064: jambe_gauche
+    400066: jambe_gauche 1
+    400068: jambe_gauche 2
+    400070: jambe_gauche_end
+    400072: jambegauche_end
+    400074: tete
+    400076: tete_end
+    2300000: body 1
+    2300002: bras_droit02
+    2300004: bras_droit_01 1
+    2300006: bras_gauche02 1
+    2300008: bras_gauche_01
+    2300010: bras_gauche_03
+    2300012: brasdroit03
+    2300014: Head
+    2300016: jambe_droite
+    2300018: jambe_gauche 2
+    3300000: body 1
+    3300002: bras_droit02
+    3300004: bras_droit_01 1
+    3300006: bras_gauche02 1
+    3300008: bras_gauche_01
+    3300010: bras_gauche_03
+    3300012: brasdroit03
+    3300014: Head
+    3300016: jambe_droite
+    3300018: jambe_gauche 2
+    4300000: body
+    4300002: brasdroit03
+    4300004: bras_droit_01
+    4300006: bras_gauche_03
+    4300008: bras_gauche02
+    4300010: Head
+    4300012: bras_gauche_01
+    4300014: jambe_gauche
+    4300016: jambe_droite
+    4300018: bras_droit02
+    7400000: Easteregg
+    7400002: EasteggAttack
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Easteregg
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: EasteggAttack
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

@@ -1,6 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Demons\UnsummonWithDelay.cs">
+    <Files>
+      <File FileName="Assets\Demons\AttackWithDelay.cs" Line="13" Column="1" />
+      <File FileName="Assets\Demons\UnsummonWithDelay.cs" Line="11" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: cca95992d30eae84e856154121ce7371
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body
+    100002: body_end
+    100004: Bone004
+    100006: Bone006
+    100008: Bone008
+    100010: Bone010
+    100012: //RootNode
+    100014: Dummy001
+    100016: Dummy002
+    100018: Dummy003
+    100020: Dummy004
+    100022: Dummy005
+    100024: Head002
+    100026: Head003
+    100028: Head01
+    100030: pate_droite
+    100032: pate_gauche_arriere
+    100034: pategauche
+    100036: Plane002
+    100038: Plane003
+    100040: Plane004
+    100042: Plane005
+    100044: Plane006
+    100046: Plane007
+    100048: Plane008
+    100050: Plane009
+    100052: queue
+    400000: body
+    400002: body_end
+    400004: Bone004
+    400006: Bone006
+    400008: Bone008
+    400010: Bone010
+    400012: //RootNode
+    400014: Dummy001
+    400016: Dummy002
+    400018: Dummy003
+    400020: Dummy004
+    400022: Dummy005
+    400024: Head002
+    400026: Head003
+    400028: Head01
+    400030: pate_droite
+    400032: pate_gauche_arriere
+    400034: pategauche
+    400036: Plane002
+    400038: Plane003
+    400040: Plane004
+    400042: Plane005
+    400044: Plane006
+    400046: Plane007
+    400048: Plane008
+    400050: Plane009
+    400052: queue
+    2300000: Plane002
+    2300002: Plane003
+    2300004: Plane004
+    2300006: Plane005
+    2300008: Plane006
+    2300010: Plane007
+    2300012: Plane008
+    2300014: Plane009
+    3300000: Plane002
+    3300002: Plane003
+    3300004: Plane004
+    3300006: Plane005
+    3300008: Plane006
+    3300010: Plane007
+    3300012: Plane008
+    3300014: Plane009
+    4300000: Plane003
+    4300002: Plane004
+    4300004: Plane005
+    4300006: Plane006
+    4300008: Plane002
+    4300010: Plane008
+    4300012: Plane009
+    4300014: Plane007
+    7400000: CerberusAttack
+    7400002: CerberusIdle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: CerberusAttack
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: CerberusIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

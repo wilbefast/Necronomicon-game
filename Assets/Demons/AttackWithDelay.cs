@@ -5,7 +5,10 @@ using System.Collections;
 public class AttackWithDelay : MonoBehaviour 
 {
 	[Range(0.0f, 10.0f)]
-	public float delayBeforeAttack = 0.0f;
+	public float delayBeforeAttack = 1.0f;
+	
+	[Range(0.0f, 10.0f)]
+	public float attackDuration = 1.0f;
 	
 	void Start () 
 	{
@@ -22,7 +25,7 @@ public class AttackWithDelay : MonoBehaviour
 		animator.SetBool("isAttacking", true);
 		
 		// wait for the end of the animation
-		yield return new WaitForSeconds(1.0f);
+		yield return new WaitForSeconds(attackDuration);
 		animator.SetBool("isAttacking", false);
 		
 		// launch the attack

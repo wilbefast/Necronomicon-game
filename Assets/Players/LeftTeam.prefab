@@ -11,9 +11,10 @@ GameObject:
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400002}
   - 65: {fileID: 6500000}
-  m_Layer: 0
+  - 114: {fileID: 11400004}
+  m_Layer: 10
   m_Name: LeftTeam
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
-  m_LocalPosition: {x: -5, y: -.00639533997, z: 0}
+  m_LocalPosition: {x: -5.5, y: -.50639534, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -36,7 +37,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5, y: 5, z: 1}
@@ -53,17 +54,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-  - prefab: {fileID: 100000, guid: da8eadbb0c5396a4587092c2e4e54687, type: 2}
+  - prefab: {fileID: 100000, guid: 2abf8b9fb1f80c543aa39e034eebbafc, type: 2}
     keyboardKey: 97
-  - prefab: {fileID: 100000, guid: 372cc1d550284794d9497e919e786418, type: 2}
+  - prefab: {fileID: 100000, guid: f4c7f4e4c43f6124abe89f3430937d7e, type: 2}
     keyboardKey: 113
-  - prefab: {fileID: 100000, guid: d60c07998945afd42aa708c632207ffe, type: 2}
+  - prefab: {fileID: 100000, guid: c04cb73bf3bd5794698749dae479d882, type: 2}
     keyboardKey: 119
-  - prefab: {fileID: 100000, guid: ffa7753bbaff8904c81bdc0b863f0941, type: 2}
+  - prefab: {fileID: 100000, guid: 372cc1d550284794d9497e919e786418, type: 2}
     keyboardKey: 122
-  - prefab: {fileID: 100000, guid: d05504c9ccd6b8247b8a9e5545b1c51c, type: 2}
+  - prefab: {fileID: 100000, guid: 031c923d36f744140bdf0e3dd1dc6aab, type: 2}
     keyboardKey: 115
-  - prefab: {fileID: 100000, guid: e94bfe31490468c4c86964129a218f74, type: 2}
+  - prefab: {fileID: 100000, guid: ba74485b1c7049b45b696e03c9555494, type: 2}
     keyboardKey: 120
   - prefab: {fileID: 100000, guid: 42b66af936c06d1478967223237808bd, type: 2}
     keyboardKey: 101
@@ -80,6 +81,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHitpoints: 500
   destroyOnDeath: 1
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95962e2e416436742af098ab536b0d2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

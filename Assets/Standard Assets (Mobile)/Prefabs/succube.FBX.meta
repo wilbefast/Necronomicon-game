@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 8a9a93720989e9d43bbec6c3238fe9b5
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone009
+    100018: Bone010
+    100020: Bone011
+    100022: Bone012
+    100024: Box001
+    100026: Box002
+    100028: IK Chain001
+    100030: IK Chain002
+    100032: IK Chain003
+    100034: IK Chain004
+    100036: Object001
+    100038: Object002
+    100040: Object003
+    100042: Object004
+    100044: Object005
+    100046: Object006
+    100048: Object007
+    100050: Object008
+    100052: Object009
+    100054: Object010
+    100056: Object011
+    100058: Object012
+    100060: Plane002
+    100062: Plane003
+    100064: Plane004
+    100066: Plane005
+    100068: Plane006
+    100070: Point001
+    100072: Point002
+    100074: Point003
+    100076: Point004
+    100078: Point005
+    100080: Point006
+    100082: Point007
+    100084: Point008
+    100086: Point009
+    100088: Point010
+    100090: Point011
+    100092: Point012
+    100094: Point013
+    100096: Point014
+    100098: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone009
+    400018: Bone010
+    400020: Bone011
+    400022: Bone012
+    400024: Box001
+    400026: Box002
+    400028: IK Chain001
+    400030: IK Chain002
+    400032: IK Chain003
+    400034: IK Chain004
+    400036: Object001
+    400038: Object002
+    400040: Object003
+    400042: Object004
+    400044: Object005
+    400046: Object006
+    400048: Object007
+    400050: Object008
+    400052: Object009
+    400054: Object010
+    400056: Object011
+    400058: Object012
+    400060: Plane002
+    400062: Plane003
+    400064: Plane004
+    400066: Plane005
+    400068: Plane006
+    400070: Point001
+    400072: Point002
+    400074: Point003
+    400076: Point004
+    400078: Point005
+    400080: Point006
+    400082: Point007
+    400084: Point008
+    400086: Point009
+    400088: Point010
+    400090: Point011
+    400092: Point012
+    400094: Point013
+    400096: Point014
+    400098: //RootNode
+    2300000: Box001
+    2300002: Box002
+    2300004: Object001
+    2300006: Object002
+    2300008: Object003
+    2300010: Object004
+    2300012: Object005
+    2300014: Object006
+    2300016: Object007
+    2300018: Object008
+    2300020: Object009
+    2300022: Object010
+    2300024: Object011
+    2300026: Object012
+    2300028: Plane003
+    2300030: Plane005
+    2300032: Plane006
+    3300000: Box001
+    3300002: Box002
+    3300004: Object001
+    3300006: Object002
+    3300008: Object003
+    3300010: Object004
+    3300012: Object005
+    3300014: Object006
+    3300016: Object007
+    3300018: Object008
+    3300020: Object009
+    3300022: Object010
+    3300024: Object011
+    3300026: Object012
+    3300028: Plane003
+    3300030: Plane005
+    3300032: Plane006
+    4300000: Box001
+    4300002: Box002
+    4300004: Object010
+    4300006: Object006
+    4300008: Object004
+    4300010: Object009
+    4300012: Object002
+    4300014: Object001
+    4300016: Plane006
+    4300018: Object011
+    4300020: Object003
+    4300022: Object007
+    4300024: Plane003
+    4300026: Object008
+    4300028: Plane005
+    4300030: Object005
+    4300032: Object012
+    7400000: SuccubeIdle
+    7400002: SuccubeAttack
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: SuccubeIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: SuccubeAttack
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

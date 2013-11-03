@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: f3ecc2c4234af7b47afd963f665d53c0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: aile_droite
+    100002: aile_droite 1
+    100004: aile_droite(mirrored)
+    100006: aile_droite_end
+    100008: aile_droite_end(mirrored)
+    100010: aile_gauche
+    100012: body
+    100014: Bone001
+    100016: carr___blanc
+    100018: carr__blancc
+    100020: corps
+    100022: debutaile_droite
+    100024: debutaile_droite(mirrored)
+    100026: Dummy001
+    100028: Dummy002
+    100030: Dummy003
+    100032: Dummy004
+    100034: Dummy005
+    100036: //RootNode
+    100038: IK Chain001
+    100040: IK Chain002
+    100042: mains
+    100044: mains 1
+    100046: queue
+    100048: tail_end
+    100050: tail_snake
+    400000: aile_droite
+    400002: aile_droite 1
+    400004: aile_droite(mirrored)
+    400006: aile_droite_end
+    400008: aile_droite_end(mirrored)
+    400010: aile_gauche
+    400012: body
+    400014: Bone001
+    400016: carr___blanc
+    400018: carr__blancc
+    400020: corps
+    400022: debutaile_droite
+    400024: debutaile_droite(mirrored)
+    400026: Dummy001
+    400028: Dummy002
+    400030: Dummy003
+    400032: Dummy004
+    400034: Dummy005
+    400036: //RootNode
+    400038: IK Chain001
+    400040: IK Chain002
+    400042: mains
+    400044: mains 1
+    400046: queue
+    400048: tail_end
+    400050: tail_snake
+    2300000: aile_droite 1
+    2300002: aile_gauche
+    2300004: carr___blanc
+    2300006: corps
+    2300008: mains 1
+    2300010: queue
+    3300000: aile_droite 1
+    3300002: aile_gauche
+    3300004: carr___blanc
+    3300006: corps
+    3300008: mains 1
+    3300010: queue
+    4300000: aile_gauche
+    4300002: aile_droite
+    4300004: mains
+    4300006: carr___blanc
+    4300008: corps
+    4300010: queue
+    7400000: HorusIdle
+    7400002: HorusAttack
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: HorusIdle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: HorusAttack
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
