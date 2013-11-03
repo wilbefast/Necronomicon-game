@@ -14,6 +14,9 @@ public class Life : MonoBehaviour
 		get{ return __hitpoints; }
 		set
 		{
+			if(value < __hitpoints)
+				BroadcastMessage("OnDamaged", SendMessageOptions.DontRequireReceiver);
+			
 			__hitpoints = value;
 			
 			if(__hitpoints > maxHitpoints)

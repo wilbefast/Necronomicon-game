@@ -22,10 +22,7 @@ public class Replace : MonoBehaviour
 			spawn.transform.parent = transform.parent;
 			
 			if(spawn.rigidbody != null && rigidbody != null)
-			{
 				spawn.rigidbody.velocity = rigidbody.velocity;
-				Debug.Log("velocity of child : " + spawn.rigidbody.velocity);
-			}
 		}
 		GameObject.Destroy(gameObject);
 	}

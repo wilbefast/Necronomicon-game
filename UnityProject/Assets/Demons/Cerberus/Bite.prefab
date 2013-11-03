@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 527ffab6f1b40744d9ecd1e8ee447b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amount: 100
+  amount: 60
   destroyOnImpact: 1
 --- !u!135 &13500000
 SphereCollider:

@@ -12,6 +12,7 @@ GameObject:
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400012}
+  - 114: {fileID: 11400016}
   - 114: {fileID: 11400014}
   - 54: {fileID: 5400000}
   - 136: {fileID: 13600000}
@@ -1004,6 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd96e2139b9e5647b4d42ac96fce9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ammunition: 1
   muzzleVelocity: 0
   projectilePrefab: {fileID: 5400000, guid: 295230058b89a4b4db9decb9f798e93d, type: 2}
   muzzle: {fileID: 400112}
@@ -1032,7 +1034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5bc1f57356e0e94ead58eb7a744b4c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitpoints: 100
+  maxHitpoints: 50
   destroyOnDeath: 1
 --- !u!114 &11400008
 MonoBehaviour:
@@ -1068,8 +1070,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a248ccbcbb10e4e4a8a6b354531fb158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeAttack: 3
-  attackDuration: 2.5
+  delayBeforeAttack: 2.5
+  attackDuration: 1.5
   weaponToUse: {fileID: 11400014}
 --- !u!114 &11400014
 MonoBehaviour:
@@ -1082,9 +1084,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd96e2139b9e5647b4d42ac96fce9dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ammunition: 2
   muzzleVelocity: 5
   projectilePrefab: {fileID: 5400000, guid: 730f1b3b985945a45a23cb6b71ffeea8, type: 2}
   muzzle: {fileID: 400054}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a248ccbcbb10e4e4a8a6b354531fb158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeAttack: 4.5
+  attackDuration: 1.5
+  weaponToUse: {fileID: 11400014}
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -16,7 +16,7 @@ public class ProjectileWeapon : Weapon
 			muzzle = transform;
 	}
 	
-	public override void launchAttack()
+	protected override void _launchAttack()
 	{
 		Rigidbody projectile = (Rigidbody)Rigidbody.Instantiate(
 			projectilePrefab, muzzle.position, muzzle.rotation);

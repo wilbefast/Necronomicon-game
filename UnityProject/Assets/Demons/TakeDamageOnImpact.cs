@@ -8,11 +8,12 @@ public class TakeDamageOnImpact : MonoBehaviour
 	{
 		DealDamageOnImpact damage = 
 			collider.gameObject.GetComponent<DealDamageOnImpact>();
-		if(damage != null)
+		if(damage != null && !damage.consumed)
 		{
 			GetComponent<Life>().hitpoints -= damage.amount;
 			if(damage.destroyOnImpact)
 				GameObject.Destroy(damage.gameObject);
+			damage.consumed = true;
 		}
 	}
 }

@@ -17,25 +17,26 @@ public class AttackWithDelay : MonoBehaviour
 		if(weaponToUse == null)
 			weaponToUse = GetComponent<Weapon>();
 		
-		StartCoroutine(attackWithDelay());
+		StartCoroutine(attackWithDelay(attackDuration, delayBeforeAttack));
 	}
 			
-	private IEnumerator attackWithDelay()
+	protected IEnumerator attackWithDelay(float duration = 0.0f, float delay = 0.0f)
 	{
-		// wait
-		yield return new WaitForSeconds(delayBeforeAttack);
-		
-		// launch attack
-		Animator animator = GetComponentInChildren<Animator>();
-		animator.SetBool("isAttacking", true);
-		
-		// wait for the end of the animation
-		yield return new WaitForSeconds(attackDuration);
-		animator.SetBool("isAttacking", false);
-		
-		// launch the attack
-		weaponToUse.launchAttack();
-		
-		yield break;
+		while(enabled && weaponToUse.canBeLaunched())
+		{
+			// wait
+			yield return new WaitForSeconds(delay);
+			
+			// launch attack
+			Animator animator = GetComponentInChildren<Animator>();
+			animator.SetBool("isAttacking", true);
+			
+			// wait for the end of the animation
+			yield return new WaitForSeconds(duration);
+			animator.SetBool("isAttacking", false);
+			
+			// launch the attack
+			weaponToUse.launchAttack();
+		}
 	}
 }
